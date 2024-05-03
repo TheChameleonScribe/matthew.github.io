@@ -26,8 +26,8 @@ defaults:
       layout: chapter
 
 # Optional features
-animated: false
-extended_fonts: false
+animated: true
+extended_fonts: true
 enable_anchorjs: false
 
 # Google services
@@ -49,6 +49,7 @@ permalink: pretty
 sass:
   style: compressed
 
+remote_theme: alertbox/bookworm
 # Gems
 plugins:
   - github-pages
@@ -58,6 +59,7 @@ plugins:
   - jekyll-sitemap   
   - jekyll-gist
   - jekyll-redirect-from
+  - jekyll-remote-theme
 whitelist:
   - jekyll-redirect-from
     
